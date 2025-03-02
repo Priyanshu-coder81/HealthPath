@@ -8,7 +8,7 @@ import { FaDroplet } from "react-icons/fa6";
 const Resources = () => {
 
     return <>
-        <div className="h-screen w-full bg-gray-200">
+        <div className="w-full bg-gray-200 pb-10" id="resources">
             <h2 className="text-2xl font-semibold justify-center text-center pt-10 font-serif">Find Nearby Hospitals</h2>
 
             <div className=" grid grid-cols-1 md:grid-cols-2 mt-10 w-[85%] m-auto gap-4">

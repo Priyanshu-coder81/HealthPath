@@ -13,7 +13,7 @@ const NavList = ({ handleOnClickImage }) => {
       </li>
       <li>
         <a
-          href="#about"
+          href="#resources"
           className="hover:underline
           hover:underline-offset-8  hover: decoration-lime-400 "
           onClick={handleOnClickImage}
@@ -23,7 +23,7 @@ const NavList = ({ handleOnClickImage }) => {
       </li>
       <li>
         <a
-          href="#services"
+          href="#schemes"
           className="hover:underline
           hover:underline-offset-8  hover: decoration-lime-400 "
           onClick={handleOnClickImage}

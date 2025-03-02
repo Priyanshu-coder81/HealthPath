@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import Resources from "./components/Resources";
+import Scheme from "./components/Scheme";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <Navbar />
         <Header />
         <Resources />
+        <Scheme />
       </div>
     </>
   );
