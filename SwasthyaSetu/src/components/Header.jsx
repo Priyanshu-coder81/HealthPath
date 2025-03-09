@@ -5,10 +5,10 @@ import { MdLocationOn } from "react-icons/md";
 const Header = () => {
     return <>
         <div className="relative flex flex-col md:flex-row justify-center items-center mt-30 h-[82vh]">
-            <div className="relative w-[100%] h-full">
+            <div className="relative w-[100%] h-full ">
                 <img src={bgImage} alt="" className="h-full object-cover w-full"/>
                 <div className="absolute inset-0 bg-black opacity-60"></div>
-                <div className="absolute top-0 left-0 right-0 text-center pt-10 sm:pt-20 w-full md:w-[90%]  m-auto">
+                <div className="absolute top-0 md:top-[25%] left-0 right-0 text-center pt-10 sm:pt-20 w-full md:w-[90%]  m-auto">
                     <h1 className="text-white text-4xl font-bold font-serif">Find Healthcare Resources near you</h1>
                     <p className="text-white sm:p-4">Locate hospitals, check bed availability, and access healthcare schemes instantly</p>
                     

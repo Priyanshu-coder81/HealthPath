@@ -1,3 +1,4 @@
+import Eligibility from "./components/Elgibility";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import Resources from "./components/Resources";
@@ -11,6 +12,7 @@ function App() {
         <Header />
         <Resources />
         <Scheme />
+        <Eligibility />
       </div>
     </>
   );
