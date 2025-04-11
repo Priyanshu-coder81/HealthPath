@@ -1,3 +1,6 @@
+import ApplySection from "./components/ApplySection";
+import Benefits from "./components/Benefits";
+import Documents from "./components/Documents";
 import Eligibility from "./components/Elgibility";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
@@ -13,6 +16,9 @@ function App() {
         <Resources />
         <Scheme />
         <Eligibility />
+        <Documents />
+        <ApplySection />
+        <Benefits />
       </div>
     </>
   );
