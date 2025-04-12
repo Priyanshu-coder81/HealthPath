@@ -5,7 +5,7 @@ const NavList = ({ handleOnClickImage }) => {
         <a
           href="#top"
           className="hover:underline
-          hover:underline-offset-8  hover: decoration-lime-400 "
+          hover:underline-offset-8  hover: decoration-blue-500 "
           onClick={handleOnClickImage}
         >
           Home
@@ -15,7 +15,7 @@ const NavList = ({ handleOnClickImage }) => {
         <a
           href="#resources"
           className="hover:underline
-          hover:underline-offset-8  hover: decoration-lime-400 "
+          hover:underline-offset-8  hover: decoration-blue-500 "
           onClick={handleOnClickImage}
         >
          Resources
@@ -25,7 +25,7 @@ const NavList = ({ handleOnClickImage }) => {
         <a
           href="#schemes"
           className="hover:underline
-          hover:underline-offset-8  hover: decoration-lime-400 "
+          hover:underline-offset-8  hover: decoration-blue-500 "
           onClick={handleOnClickImage}
         >
           Government Schemes
@@ -34,12 +34,12 @@ const NavList = ({ handleOnClickImage }) => {
      
       <li>
         <a
-          href="#contact"
+          href="#apply"
           className="hover:underline
-          hover:underline-offset-8  hover: decoration-lime-400 "
+          hover:underline-offset-8  hover: decoration-blue-500 "
           onClick={handleOnClickImage}
         >
-          Contact Us
+          Wanna Apply
         </a>
       </li>
     </>

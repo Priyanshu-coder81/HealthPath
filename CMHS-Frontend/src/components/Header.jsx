@@ -1,10 +1,9 @@
 import bgImage from "/images/bgImage.jpg";
-import frontImage from "/images/ayushman-bharat-front.jpeg";
 import { MdLocationOn } from "react-icons/md";
 
 const Header = () => {
     return <>
-        <div className="relative flex flex-col md:flex-row justify-center items-center mt-30 h-[82vh]">
+        <div id="top" className="relative flex flex-col md:flex-row justify-center items-center mt-30 h-[82vh]">
             <div className="relative w-[100%] h-full ">
                 <img src={bgImage} alt="" className="h-full object-cover w-full"/>
                 <div className="absolute inset-0 bg-black opacity-60"></div>
