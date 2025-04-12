@@ -2,6 +2,7 @@ import ApplySection from "./components/ApplySection";
 import Benefits from "./components/Benefits";
 import Documents from "./components/Documents";
 import Eligibility from "./components/Elgibility";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import Resources from "./components/Resources";
@@ -19,6 +20,7 @@ function App() {
         <Documents />
         <ApplySection />
         <Benefits />
+        <Footer />
       </div>
     </>
   );

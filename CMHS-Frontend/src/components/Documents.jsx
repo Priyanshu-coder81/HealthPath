@@ -30,57 +30,34 @@ export default function Documents() {
     emoji: "📊",
     icon: <FileText className="h-6 w-6 text-blue-600" />,
     description: "Recent income certificate from authorized authority",
-    examples: "Form 16, Salary slips, Income tax return"
+    examples: "Form 16, Salary slips, Income tax return",
+    image: "./images/IncomeCertificate.jpg"
   },
   {
     name: "Family Documents",
     emoji: "👪",
     icon: <Users className="h-6 w-6 text-blue-600" />,
     description: "Ration Card or document listing family members",
-    examples: "Joint family declaration, Marriage certificate"
+    examples: "Joint family declaration, Marriage certificate",
+    image: "./images/FamilyDocument.jpg"
   },
   {
     name: "Bank Details",
     emoji: "📈",
     icon: <CreditCard className="h-6 w-6 text-blue-600" />,
     description: "Bank account details for financial transactions",
-    examples: "Passbook copy, Cancelled cheque"
+    examples: "Passbook copy, Cancelled cheque",
+    image: "./images/BankDetails.jpg"
   },
   {
     name: "Caste Certificate",
     emoji: "📝",
     icon: <FileText className="h-6 w-6 text-blue-600" />,
     description: "If applicable, to verify social category",
-    examples: "Original certificate from authorized authority"
+    examples: "Original certificate from authorized authority",
+    image: "./images/CasteCertificate.jpg"
   }
- /*    {
-      icon: <CreditCard className="h-8 w-8" />,
-      name: "Aadhaar Card",
-      description: "Primary identity proof for all family members",
-      emoji: "📝",
-      image: "./images/addharImage.jpg"
-    },
-    {
-      icon: <Home className="h-8 w-8" />,
-      name: "Ration Card",
-      description: "Family identification and economic status proof",
-      emoji: "🏠",
-      image: "./images/rationImage.jpg"
-    },
-    {
-      icon: <Users className="h-8 w-8" />,
-      name: "SECC Data",
-      description: "Socio-Economic Caste Census verification",
-      emoji: "👥",
-      image: "https://images.unsplash.com/photo-1554774853-aae0a22c8aa4?auto=format&fit=crop&q=80&w=400"
-    },
-    {
-      icon: <FileText className="h-8 w-8" />,
-      name: "Income Certificate",
-      description: "Proof of annual family income (if applicable)",
-      emoji: "💰",
-      image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&q=80&w=400"
-    } */
+
   ];
 
   return (
