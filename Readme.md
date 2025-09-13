@@ -1,6 +1,6 @@
-# 🏥 SwasthyaSetu
+# 🏥 HealthPath
 
-SwasthyaSetu is a centralized health management platform designed to bridge the gap between hospitals, NGOs, and the public. It helps users check real-time availability of hospital resources and access Ayushman Bharat card-related services with ease.
+HealthPath is a centralized health management platform designed to bridge the gap between hospitals, NGOs, and the public. It helps users check real-time availability of hospital resources and access Ayushman Bharat card-related services with ease.
 
 ## 🚀 Features
 
